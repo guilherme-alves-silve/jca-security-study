@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'br.com.guilhermealvessileira'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("commons-codec:commons-codec:1.13")
+    testCompile("junit:junit:4.12")
+}
